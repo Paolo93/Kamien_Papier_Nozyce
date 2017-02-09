@@ -17,44 +17,44 @@
 
 
       <div class="manual">
-		    <button class="btn btn-default pick-button" onclick="playerPick('rock')">
+		  <button class="btn btn-default pick-button" onclick="playerPick('rock')">
   		    Rock <i class="fa fa-hand-rock-o" aria-hidden="true"></i>
-  			</button>
-  			<button class="btn btn-default pick-button" onclick="playerPick('paper')">
+  		  </button>
+  		  <button class="btn btn-default pick-button" onclick="playerPick('paper')">
   		    Paper <i class="fa fa-hand-paper-o" aria-hidden="true"></i>
-  			</button>
-  			<button class="btn btn-default pick-button" onclick="playerPick('scissors')">
+  		  </button>
+  		  <button class="btn btn-default pick-button" onclick="playerPick('scissors')">
   		    Scissors <i class="fa fa-hand-scissors-o" aria-hidden="true"></i>
-  			</button>
-	    </div>
+  		  </button>
+	  </div>
 
-	    <div class="score">
-		  <p><h2>Current round:</h2> <br>
+	  <div class="score">
+		<p><h2>Current round:</h2> <br>
 		  computer chose: <span id="computerPick"></span> <br>
 		  player chose: <span id="playerPick"></span> <br>
 		  result: <span id="gameResult"></span>
-		  </p>
-		</div>
+		</p>
+	  </div>
 
-	  	<div>
-	  		<table class="table table-bordered table-striped">
-			  <thead>
-			    <tr>
-			      <th colspan="2" class="text-center">Game results</th>
-			    </tr>
-			    <tr>
-			      <th id="playerName">Player</th>
-			      <th>Computer</th>
-			    </tr>
-			  </thead>
-			  <tbody><tr>
-			    <td id="playerScore">0</td>
-			    <td id="computerScore">0</td>
-			  </tr></tbody>
-			</table>
-	  	</div>
+	  <div>
+	  	<table class="table table-bordered table-striped">
+			<thead>
+			  <tr>
+			    <th colspan="2" class="text-center">Game results</th>
+			  </tr>
+			  <tr>
+			    <th id="playerName">Player</th>
+			    <th>Computer</th>
+			  </tr>
+		   </thead>
+		   <tbody><tr>
+			  <td id="playerScore">0</td>
+			  <td id="computerScore">0</td>
+		   </tr></tbody>
+		</table>
+	  </div>
 
-	  		<p id="roundResult"></p>
+	  	<p id="roundResult"></p>
 
 	    	<script type="text/javascript" src="script.js"></script>
 	</body>
